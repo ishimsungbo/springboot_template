@@ -13,4 +13,9 @@ public class JspViewController {
         return "jsptest";
     }
 
+    //promise
+    @GetMapping("/promise")
+    public String promise(){
+        return "promise";
+    }
 }
