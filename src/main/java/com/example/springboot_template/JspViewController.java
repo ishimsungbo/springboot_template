@@ -13,7 +13,7 @@ public class JspViewController {
         return "jsptest";
     }
 
-    //promise
+    //promise 테스트를 위한 구성
     @GetMapping("/promise")
     public String promise(){
         return "promise";
